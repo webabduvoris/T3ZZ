@@ -1,0 +1,52 @@
+.topbar{
+    padding-top: 80px;
+    position: relative;
+
+    &__wrapper{
+        display: -webkit-box;
+        display: -ms-flexbox;
+        display: flex;
+        -webkit-box-pack: justify;
+            -ms-flex-pack: justify;
+                justify-content: space-between;
+        -webkit-box-orient: horizontal;
+        -webkit-box-direction: normal;
+            -ms-flex-direction: row;
+                flex-direction: row;
+        color: white;
+
+        strong{
+            font-weight: 500;
+            font-size: 36px;
+            font-family: 'Roboto Mono', monospace;
+        }
+
+        ul{
+            font-family: 'Poppins';
+            &::before{
+                content: '';
+                position: absolute;
+                background: #8123DB;               
+                opacity: 0.75;
+                -webkit-filter: blur(125px);
+                        filter: blur(125px);
+                -webkit-transform: rotate(46.57deg);
+                    -ms-transform: rotate(46.57deg);
+                        transform: rotate(46.57deg);
+                width: 800px;
+                height: 700px;
+
+            }
+            li{
+                a{
+                    display: inline-block;
+                    color: white;
+                    margin-top: 20px;
+                }
+            }
+        }
+        #burger{
+            display: none;
+        }
+    }
+}

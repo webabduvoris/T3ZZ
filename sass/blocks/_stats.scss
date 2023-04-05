@@ -1,0 +1,50 @@
+.stats{
+    font-family: 'Poppins';
+    padding-top: 167px;
+    &__title{
+        font-size: 60px;
+        font-weight: 600;
+    }
+    &__numbers{
+        display: -webkit-box;
+        display: -ms-flexbox;
+        display: flex;
+        -webkit-box-pack: justify;
+            -ms-flex-pack: justify;
+                justify-content: space-between;
+        -ms-flex-wrap: wrap;
+            flex-wrap: wrap;
+        margin-top: 60px;
+        text-align: center;
+        
+
+        h3{
+            font-weight: 400;
+            font-size: 48px;
+        }
+    }
+
+    &__inner{
+        width: 400px;
+        .sub-text{
+            margin-top: 10px;
+            text-align: center;
+            display: inline-block;
+        }
+    }
+    &__card{
+        font-weight: 400;
+        font-size: 55px;
+    }
+    &__info{
+        font-weight: 500;
+        font-size: 14px;
+        text-align: end;
+        margin-top: 183px;
+        span{
+            display: inline-block;
+            max-width: 492px;
+        }
+    
+    }
+}

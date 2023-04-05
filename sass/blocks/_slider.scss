@@ -1,0 +1,65 @@
+.slider{
+    font-family: 'Poppins';
+    &__navigation{
+        h3{
+            color: linear-gradient(258.42deg, #8123DB 68.24%, #FFFFFF 87.67%);
+            letter-spacing: -1px;
+            
+        }
+    }
+    &__logos{
+        display: -webkit-box;
+        display: -ms-flexbox;
+        display: flex;
+        -ms-flex-wrap: wrap;
+            flex-wrap: wrap;
+        -webkit-box-pack: center;
+            -ms-flex-pack: center;
+                justify-content: center;
+        margin-top: 29px;
+    }
+
+    
+
+    &__title{
+            font-weight: 600;
+            font-size: 32px;
+    }
+
+    &__slide{
+
+        p{
+            margin-top: 29px;
+
+        }
+    }
+
+    &__more{
+        text-align: center;
+        color: white;
+        display: inline-block;
+        margin-top: 29px;
+        -webkit-transition: .3s ease-in;
+        -o-transition: .3s ease-in;
+        transition: .3s ease-in;
+        &:hover{
+            color: #8123DB;
+        }
+    }
+
+    &__hover-inner{
+        overflow: hidden; 
+        img{
+            -webkit-transition: 0.3s;
+            -o-transition: 0.3s;
+            transition: 0.3s;
+            &:hover{
+                -webkit-transform: scale(1.1);
+                    -ms-transform: scale(1.1);
+                        transform: scale(1.1);
+                cursor: pointer;
+            }
+        }
+       
+    }
+}

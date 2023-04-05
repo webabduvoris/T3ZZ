@@ -1,0 +1,70 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+
+// font-family: 'Inter', sans-serif;
+// font-family: 'Poppins', sans-serif;
+// font-family: 'Roboto Mono', monospace;
+
+html{
+    overflow-x: auto;
+}
+
+body{
+    background: #000000;
+    overflow-x: hidden;
+    color: white;
+    scroll-behavior: smooth;
+    overflow-x: hidden;
+
+}
+
+.container{
+    max-width: 1720px;
+    margin: 0 auto;
+    padding: 0 15px;
+}
+
+ul, li{
+    list-style: none;
+
+}
+
+
+
+a{
+    text-decoration: none;
+}
+
+
+.semi-container{
+    max-width: 1430px;
+    margin: 0 auto;
+    padding: 0 15px;
+
+}
+
+
+@import "blocks/topbar";
+@import "blocks/header";
+@import "blocks/stats";
+@import "blocks/slider";
+@import "blocks/system";
+@import "blocks/footer";
+
+
+
+
+
+@import "piece/btn";
+@import "piece/text";
+@import "piece/swipper";
+
+
+@import "base/media";
+
+

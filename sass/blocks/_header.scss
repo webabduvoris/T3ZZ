@@ -1,0 +1,87 @@
+.header{
+    font-family: 'Poppins';
+    padding-top: 193px;
+    position: relative;
+    &::before{
+     content: '';
+     position: absolute;
+     background: #8123DB;             
+     opacity: 0.75;
+     -webkit-filter: blur(125px);
+             filter: blur(125px);
+     width: 800px;
+     height: 700px;
+     left: -347px;
+     top: 334px;
+
+ }
+    &__content{
+        z-index: 1;
+        padding-bottom: 230px;
+        display: -webkit-box;
+        display: -ms-flexbox;
+        display: flex;
+        -webkit-box-orient: vertical;
+        -webkit-box-direction: normal;
+            -ms-flex-direction: column;
+                flex-direction: column;
+    }
+    &__content-btns{
+        display: -webkit-box;
+        display: -ms-flexbox;
+        display: flex;
+        -webkit-box-align: center;
+            -ms-flex-align: center;
+                align-items: center;
+        gap: 30px;
+        a{
+            z-index: 1  ;
+        }
+    }
+    &__text{
+        margin-top: 30px;
+     
+    }
+    &__content-btns{
+        margin-top: 30px;
+    }
+    &__info-title{
+        text-align: center;
+        background: -webkit-gradient(linear, left top, right top, from(#FFFFFF), to(#8123DB));
+        background: -o-linear-gradient(left, #FFFFFF 0%, #8123DB 100%);
+        background: linear-gradient(90deg, #FFFFFF 0%, #8123DB 100%);
+        -webkit-background-clip: text;
+        -webkit-text-fill-color: transparent;
+        background-clip: text;
+        font-weight: 600;
+        font-size: 20px;
+        text-transform: uppercase;
+    }
+    &__brands{
+        display: -webkit-box;
+        display: -ms-flexbox;
+        display: flex;
+        -webkit-box-pack: center;
+            -ms-flex-pack: center;
+                justify-content: center;
+        gap: 70px;
+        margin-top: 38px;
+        
+    }
+
+    &__img{
+        img{
+            -webkit-transition: 0.2s ease-in;
+            -o-transition: 0.2s ease-in;
+            transition: 0.2s ease-in;
+            cursor: pointer;
+            &:hover{
+                -webkit-transform: scale(1.1);
+                    -ms-transform: scale(1.1);
+                        transform: scale(1.1);
+            }
+        }
+    }
+
+   
+}
